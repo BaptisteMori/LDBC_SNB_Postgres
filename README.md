@@ -69,3 +69,7 @@ When every things is set juste run:
 ```commandline
 python3 scripts/main.py
 ```
+
+### Amelioration
+#### Postgres configuration
+Because I'm not familiar with the optimisation of postgres, I just run a postgres server without optimisation, that mean those graph queries are slow
