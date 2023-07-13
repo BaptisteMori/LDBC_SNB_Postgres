@@ -7,6 +7,8 @@ POSTGRES_DB="ldbcsnb"
 POSTGRES_USER='postgres'
 POSTGRES_PASSWORD='mysecretpassword'
 
+echo "data_directory = '$POSTGRES_PATH'" >> postgresql.conf
+
 # Initialiser la base de données
 initdb -D $POSTGRES_PATH -U $POSTGRES_USER
 
